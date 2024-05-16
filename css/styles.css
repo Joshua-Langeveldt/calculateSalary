@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    margin: 1rem auto 1rem;
+}
+
+label {
+
+    margin: 10px;
+}
