@@ -21,3 +21,19 @@ label {
 
     margin: 10px;
 }
+
+input[type="number"]:invalid {
+    border-color: red;
+}
+
+input[type="number"]:valid {
+    border-color: green;
+}
+
+input[type="date"]:invalid {
+    background-color: #ffdddd;
+}
+
+input[type="date"]:valid {
+    background-color: #ddffdd;
+}
