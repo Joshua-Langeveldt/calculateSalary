@@ -39,11 +39,10 @@ document.getElementById('user').addEventListener('submit', function(event) {
     if (isLeapYear(dobYear)) {
         document.getElementById('dob').style.backgroundColor = 'lightgreen';
     } else {
-        document.getElementById('dob').style.backgroundColor = '';
+        document.getElementById('dob').style.backgroundColor = 'purple';
     }
 
     let salary = data.hours * data.rate;
     alert(`Hello Dear ${data.greeting} ${data.firstName} ${data.lastName},\nWe hope you're doing well; here's your salary after deduction. R${salary}\nThank you`);
 
-    localStorage.setItem('userData', JSON.stringify(data));
 });
